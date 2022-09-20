@@ -1,0 +1,27 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Agencia de Viajes con NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "webdev"
+  ],
+  "type": "module",
+  "author": "Israel Peralta Lapuente",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
